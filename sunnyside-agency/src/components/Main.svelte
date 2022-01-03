@@ -2,6 +2,7 @@
     import Navigation from "./Navigation.svelte";
     import Jumbotron from "./Jumbotron.svelte";
     import Grids from "./Grids.svelte";
+    import Testimonials from "./Testimonials.svelte";
 </script>
 
 <div id="main">
@@ -9,8 +10,11 @@
         <Navigation />
         <Jumbotron />
     </div>
-    <div id="bottom">
+    <div id="middle">
         <Grids />
+    </div>
+    <div id="bottom">
+        <Testimonials />
     </div>
 </div>
 
