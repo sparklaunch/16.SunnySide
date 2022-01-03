@@ -4,6 +4,7 @@
     import Grids from "./Grids.svelte";
     import Testimonials from "./Testimonials.svelte";
     import Gallery from "./Gallery.svelte";
+    import Footer from "./Footer.svelte";
 </script>
 
 <div id="main">
@@ -17,6 +18,7 @@
     <div id="bottom">
         <Testimonials />
         <Gallery />
+        <Footer />
     </div>
 </div>
 
