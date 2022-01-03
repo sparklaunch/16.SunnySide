@@ -3,6 +3,7 @@
     import Jumbotron from "./Jumbotron.svelte";
     import Grids from "./Grids.svelte";
     import Testimonials from "./Testimonials.svelte";
+    import Gallery from "./Gallery.svelte";
 </script>
 
 <div id="main">
@@ -15,6 +16,7 @@
     </div>
     <div id="bottom">
         <Testimonials />
+        <Gallery />
     </div>
 </div>
 
