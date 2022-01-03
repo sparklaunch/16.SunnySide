@@ -25,6 +25,4 @@
     #jumbotron-orange {
         margin-bottom: 250px;
     }
-    #jumbotron-orange > img {
-    }
 </style>
