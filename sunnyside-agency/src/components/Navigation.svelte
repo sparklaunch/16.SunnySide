@@ -1,6 +1,8 @@
 <div id="navigation">
     <div id="navigation-title">
-        <img src="/assets/logo.svg" alt="Logo" />
+        <a href="/">
+            <img src="/assets/logo.svg" alt="Logo" />
+        </a>
     </div>
     <div id="navigation-menu">
         <ul>
@@ -24,6 +26,7 @@
         padding: 30px;
         justify-content: space-between;
         align-items: center;
+        margin-bottom: 50px;
     }
     #navigation-menu {
         display: flex;
