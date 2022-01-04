@@ -45,6 +45,10 @@
         text-decoration: none;
         color: rgb(42, 109, 93);
         font-family: "Barlow", sans-serif;
+        transition: color 0.3s;
+    }
+    #sitemaps > a:hover {
+        color: white;
     }
     #sitemaps > a:not(:last-child) {
         margin-right: 30px;
@@ -54,5 +58,11 @@
     }
     #social-media-links > a:not(:last-child) {
         margin-right: 20px;
+    }
+    #social-media-links > a > img {
+        transition: filter 0.3s;
+    }
+    #social-media-links > a:hover > img {
+        filter: brightness(10);
     }
 </style>
