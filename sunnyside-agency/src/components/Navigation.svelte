@@ -52,5 +52,10 @@
         font-family: "Fraunces", sans-serif;
         border-radius: 30px;
         cursor: pointer;
+        transition: background-color 0.3s, color 0.3s;
+    }
+    #navigation-menu > button:hover {
+        background-color: rgb(99, 202, 251);
+        color: white;
     }
 </style>
