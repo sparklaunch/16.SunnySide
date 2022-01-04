@@ -83,6 +83,9 @@
         z-index: 1;
         letter-spacing: 1px;
     }
+    #transform-link > a:hover + #transform-link-bottom {
+        background-color: rgb(255, 210, 14);
+    }
     #transform-link-bottom {
         width: 140px;
         height: 10px;
@@ -91,6 +94,7 @@
         position: relative;
         bottom: 10px;
         right: 8px;
+        transition: background-color 0.3s;
     }
     #egg > img {
         width: 100%;
@@ -129,6 +133,9 @@
         z-index: 1;
         letter-spacing: 1px;
     }
+    #standout-link > a:hover + #standout-link-bottom {
+        background-color: rgb(255, 108, 91);
+    }
     #standout-link-bottom {
         width: 140px;
         height: 10px;
@@ -137,6 +144,7 @@
         position: relative;
         bottom: 10px;
         right: 8px;
+        transition: background-color 0.3s;
     }
     #graphic {
         background-image: url("/assets/desktop/image-graphic-design.jpg");
